@@ -12,9 +12,7 @@ public class EhuTests : BaseUiTest
         OpenHomePage();
         AcceptCookiesIfPresent();
 
-        var aboutLink = WaitForClickable(
-            By.XPath("//a[normalize-space()='About']"));
-
+        var aboutLink = WaitForClickable(By.XPath("//a[normalize-space()='About']"));
         aboutLink.Click();
 
         Wait.Until(d => d.Url.Contains("/about/"));
@@ -47,7 +45,7 @@ public class EhuTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl("https://en.ehuniversity.lt/?s=study+programs");
+            Driver.Navigate().GoToUrl($"{HomePageUrl}?s=study+programs");
         }
 
         Wait.Until(d =>
@@ -56,7 +54,6 @@ public class EhuTests : BaseUiTest
             d.PageSource.Contains("Study programs"));
 
         var pageText = GetNormalizedBodyText().ToLower();
-
         AssertPageContainsAny(pageText, "study programs", "bachelor", "master");
     }
 
@@ -76,7 +73,7 @@ public class EhuTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl("https://lt.ehuniversity.lt/");
+            Driver.Navigate().GoToUrl(LithuanianHomePageUrl);
         }
 
         Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));
@@ -84,14 +81,13 @@ public class EhuTests : BaseUiTest
         Assert.That(Driver.Url, Does.Contain("lt.ehuniversity.lt"));
 
         var bodyText = GetNormalizedBodyText().ToLower();
-
         AssertPageContainsAny(bodyText, "apie mus", "studijos", "europos humanitarinis universitetas");
     }
 
     [Test]
     public void Test_04_Verify_Contact_Info_Is_Displayed()
     {
-        Driver.Navigate().GoToUrl("https://en.ehuniversity.lt/contacts/");
+        Driver.Navigate().GoToUrl(ContactsPageUrl);
 
         Wait.Until(d => d.Url.Contains("/contacts"));
 

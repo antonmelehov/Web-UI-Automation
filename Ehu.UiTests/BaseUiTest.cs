@@ -7,8 +7,14 @@ namespace Ehu.UiTests;
 
 public class BaseUiTest
 {
+    protected const string HomePageUrl = "https://en.ehuniversity.lt/";
+    protected const string LithuanianHomePageUrl = "https://lt.ehuniversity.lt/";
+    protected const string ContactsPageUrl = "https://en.ehuniversity.lt/contacts/";
+
     protected IWebDriver Driver = null!;
     protected WebDriverWait Wait = null!;
+
+    private static readonly TimeSpan DefaultWaitTimeout = TimeSpan.FromSeconds(15);
 
     [SetUp]
     public void SetUp()
@@ -17,7 +23,7 @@ public class BaseUiTest
         options.AddArgument("--start-maximized");
 
         Driver = new ChromeDriver(options);
-        Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(15));
+        Wait = new WebDriverWait(Driver, DefaultWaitTimeout);
     }
 
     [TearDown]
@@ -67,18 +73,16 @@ public class BaseUiTest
 
     protected void AcceptCookiesIfPresent()
     {
-        string xpath = "//button[contains(., 'I agree')]";
-        
         try
         {
-            var buttons = Driver.FindElements(By.XPath(xpath));
-            var button = buttons.FirstOrDefault(b => b.Displayed && b.Enabled);
+            var button = Driver.FindElements(By.XPath("//button[contains(., 'I agree')]"))
+                .FirstOrDefault(b => b.Displayed && b.Enabled);
 
-            if (button != null)
-            {
-                button.Click();
-                Thread.Sleep(500);
-            }
+            if (button == null)
+                return;
+
+            button.Click();
+            Thread.Sleep(500);
         }
         catch
         {
@@ -87,7 +91,7 @@ public class BaseUiTest
 
     protected void OpenHomePage()
     {
-        Driver.Navigate().GoToUrl("https://en.ehuniversity.lt/");
+        Driver.Navigate().GoToUrl(HomePageUrl);
     }
 
     protected string GetNormalizedBodyText()
@@ -97,11 +101,12 @@ public class BaseUiTest
             .Replace('\u00A0', ' ')
             .Trim();
     }
-    
+
     protected void JsClick(IWebElement element)
     {
         ((IJavaScriptExecutor)Driver).ExecuteScript(
             "arguments[0].scrollIntoView({block: 'center'});", element);
+
         ((IJavaScriptExecutor)Driver).ExecuteScript(
             "arguments[0].click();", element);
     }
