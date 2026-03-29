@@ -5,6 +5,8 @@ namespace Ehu.UiTests;
 
 [TestFixture]
 [Category("UI")]
+[Parallelizable(ParallelScope.Children)]
+[FixtureLifeCycle(LifeCycle.InstancePerTestCase)]
 public class EhuTests : BaseUiTest
 {
     private static readonly string[] ContactInfoTexts =
