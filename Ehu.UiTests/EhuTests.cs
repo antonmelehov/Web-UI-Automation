@@ -7,6 +7,15 @@ namespace Ehu.UiTests;
 [Category("UI")]
 public class EhuTests : BaseUiTest
 {
+    private static readonly string[] ContactInfoTexts =
+    {
+        "consult@ehu.lt",
+        "press@ehu.lt",
+        "office@ehu.lt",
+        "+370 5 263 9650",
+        "Facebook"
+    };
+
     [Test]
     [Category("Navigation")]
     public void Test_01_Open_About_Page()
@@ -90,7 +99,8 @@ public class EhuTests : BaseUiTest
 
     [Test]
     [Category("Contacts")]
-    public void Test_04_Verify_Contact_Info_Is_Displayed()
+    [TestCaseSource(nameof(ContactInfoTexts))]
+    public void Test_04_Verify_Contact_Info_Contains_Expected_Text(string expectedText)
     {
         Driver.Navigate().GoToUrl(ContactsPageUrl);
 
@@ -98,13 +108,6 @@ public class EhuTests : BaseUiTest
 
         var bodyText = GetNormalizedBodyText();
 
-        Assert.Multiple(() =>
-        {
-            Assert.That(bodyText, Does.Contain("consult@ehu.lt"));
-            Assert.That(bodyText, Does.Contain("press@ehu.lt"));
-            Assert.That(bodyText, Does.Contain("office@ehu.lt"));
-            Assert.That(bodyText, Does.Contain("+370 5 263 9650"));
-            Assert.That(bodyText, Does.Contain("Facebook"));
-        });
+        Assert.That(bodyText, Does.Contain(expectedText));
     }
 }
