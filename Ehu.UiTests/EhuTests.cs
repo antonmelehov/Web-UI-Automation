@@ -4,9 +4,11 @@ using OpenQA.Selenium;
 namespace Ehu.UiTests;
 
 [TestFixture]
+[Category("UI")]
 public class EhuTests : BaseUiTest
 {
     [Test]
+    [Category("Navigation")]
     public void Test_01_Open_About_Page()
     {
         OpenHomePage();
@@ -28,6 +30,7 @@ public class EhuTests : BaseUiTest
     }
 
     [Test]
+    [Category("Search")]
     public void Test_02_Search_Study_Programs()
     {
         OpenHomePage();
@@ -58,6 +61,7 @@ public class EhuTests : BaseUiTest
     }
 
     [Test]
+    [Category("Localization")]
     public void Test_03_Change_Language_To_Lithuanian()
     {
         OpenHomePage();
@@ -85,6 +89,7 @@ public class EhuTests : BaseUiTest
     }
 
     [Test]
+    [Category("Contacts")]
     public void Test_04_Verify_Contact_Info_Is_Displayed()
     {
         Driver.Navigate().GoToUrl(ContactsPageUrl);
