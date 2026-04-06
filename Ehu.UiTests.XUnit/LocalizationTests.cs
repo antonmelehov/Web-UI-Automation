@@ -1,5 +1,4 @@
-﻿using OpenQA.Selenium;
-using Ehu.UiTests.Core.Configuration;
+﻿using Ehu.UiTests.Core.Pages;
 
 namespace Ehu.UiTests.XUnit;
 
@@ -10,27 +9,16 @@ public class LocalizationTests : BaseUiTest
     [Trait("Category", "Localization")]
     public void Change_Language_To_Lithuanian()
     {
-        OpenHomePage();
-        AcceptCookiesIfPresent();
-
-        var ltLink = Driver.FindElements(
-                By.XPath("//a[normalize-space()='lt' and contains(@href,'lt.ehuniversity.lt')]"))
-            .FirstOrDefault(e => e.Displayed && e.Enabled);
-
-        if (ltLink != null)
-        {
-            JsClick(ltLink);
-        }
-        else
-        {
-            Driver.Navigate().GoToUrl(TestSettings.Instance.LithuanianHomePageUrl);
-        }
+        var homePage = new HomePage(Driver).Open();
+        homePage.AcceptCookiesIfPresent();
+        homePage.SwitchToLithuanian();
 
         Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));
 
         Assert.Contains("lt.ehuniversity.lt", Driver.Url);
 
-        var bodyText = GetNormalizedBodyText().ToLower();
-        AssertPageContainsAny(bodyText, "apie mus", "studijos", "europos humanitarinis universitetas");
+        var contentPage = new ContentPage(Driver);
+
+        Assert.True(contentPage.ContainsAnyText("apie mus", "studijos", "europos humanitarinis universitetas"));
     }
 }

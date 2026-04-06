@@ -1,4 +1,4 @@
-﻿using Ehu.UiTests.Core.Configuration;
+﻿using Ehu.UiTests.Core.Pages;
 
 namespace Ehu.UiTests.XUnit;
 
@@ -20,11 +20,10 @@ public class ContactsTests : BaseUiTest
     [Trait("Category", "Contacts")]
     public void Contact_Info_Contains_Expected_Text(string expectedText)
     {
-        Driver.Navigate().GoToUrl(TestSettings.Instance.ContactsPageUrl);
+        var contactsPage = new ContactsPage(Driver).Open();
 
-        Wait.Until(d => d.Url.Contains("/contacts"));
+        Wait.Until(d => contactsPage.IsOpened());
 
-        var bodyText = GetNormalizedBodyText();
-        Assert.Contains(expectedText, bodyText);
+        Assert.True(contactsPage.ContainsText(expectedText));
     }
 }

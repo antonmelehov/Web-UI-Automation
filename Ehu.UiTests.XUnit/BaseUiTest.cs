@@ -1,5 +1,4 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using Ehu.UiTests.Core.Configuration;
 using Ehu.UiTests.Core.Drivers;
@@ -27,82 +26,5 @@ public abstract class BaseUiTest : IDisposable
         catch
         {
         }
-    }
-
-    protected IWebElement WaitForVisible(By by)
-    {
-        return Wait.Until(driver =>
-        {
-            try
-            {
-                var element = driver.FindElement(by);
-                return element.Displayed ? element : null;
-            }
-            catch
-            {
-                return null;
-            }
-        });
-    }
-
-    protected IWebElement WaitForClickable(By by)
-    {
-        return Wait.Until(driver =>
-        {
-            try
-            {
-                var element = driver.FindElement(by);
-                return element.Displayed && element.Enabled ? element : null;
-            }
-            catch
-            {
-                return null;
-            }
-        });
-    }
-
-    protected void AcceptCookiesIfPresent()
-    {
-        try
-        {
-            var button = Driver.FindElements(By.XPath("//button[contains(., 'I agree')]"))
-                .FirstOrDefault(b => b.Displayed && b.Enabled);
-
-            if (button == null)
-                return;
-
-            button.Click();
-            Thread.Sleep(500);
-        }
-        catch
-        {
-        }
-    }
-
-    protected void OpenHomePage()
-    {
-        Driver.Navigate().GoToUrl(TestSettings.Instance.HomePageUrl);
-    }
-
-    protected string GetNormalizedBodyText()
-    {
-        return Driver.FindElement(By.TagName("body"))
-            .Text
-            .Replace('\u00A0', ' ')
-            .Trim();
-    }
-
-    protected void JsClick(IWebElement element)
-    {
-        ((IJavaScriptExecutor)Driver).ExecuteScript(
-            "arguments[0].scrollIntoView({block: 'center'});", element);
-
-        ((IJavaScriptExecutor)Driver).ExecuteScript(
-            "arguments[0].click();", element);
-    }
-
-    protected void AssertPageContainsAny(string pageText, params string[] expectedTexts)
-    {
-        Assert.Contains(expectedTexts, text => pageText.Contains(text));
     }
 }

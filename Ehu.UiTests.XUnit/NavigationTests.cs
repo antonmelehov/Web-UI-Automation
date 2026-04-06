@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+﻿using Ehu.UiTests.Core.Pages;
 
 namespace Ehu.UiTests.XUnit;
 
@@ -9,18 +9,17 @@ public class NavigationTests : BaseUiTest
     [Trait("Category", "Navigation")]
     public void Open_About_Page()
     {
-        OpenHomePage();
-        AcceptCookiesIfPresent();
+        var homePage = new HomePage(Driver).Open();
+        homePage.AcceptCookiesIfPresent();
+        homePage.ClickAbout();
 
-        var aboutLink = WaitForClickable(By.XPath("//a[normalize-space()='About']"));
-        aboutLink.Click();
+        var aboutPage = new AboutPage(Driver);
 
-        Wait.Until(d => d.Url.Contains("/about/"));
-
-        Assert.Contains("/about/", Driver.Url);
-        Assert.Contains("About", Driver.Title);
-
-        var header = WaitForVisible(By.XPath("//h1[contains(normalize-space(), 'About')]"));
-        Assert.Contains("About", header.Text);
+        Assert.Multiple(() =>
+        {
+            Assert.True(aboutPage.IsOpened());
+            Assert.Contains("About", Driver.Title);
+            Assert.True(aboutPage.HeaderContains("About"));
+        });
     }
 }
