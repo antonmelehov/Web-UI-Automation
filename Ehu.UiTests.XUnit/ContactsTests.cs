@@ -22,7 +22,7 @@ public class ContactsTests : BaseUiTest
     {
         var contactsPage = new ContactsPage(Driver).Open();
 
-        Wait.Until(d => contactsPage.IsOpened());
+        contactsPage.WaitUntilOpened();
 
         Assert.True(contactsPage.ContainsText(expectedText));
     }

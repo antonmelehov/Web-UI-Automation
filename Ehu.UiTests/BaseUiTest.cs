@@ -10,13 +10,11 @@ namespace Ehu.UiTests;
 public class BaseUiTest
 {
     protected IWebDriver Driver = null!;
-    protected WebDriverWait Wait = null!;
 
     [SetUp]
     public void SetUp()
     {
         Driver = WebDriverFactory.CreateChromeDriver();
-        Wait = new WebDriverWait(Driver, TestSettings.Instance.DefaultWaitTimeout);
     }
 
     [TearDown]

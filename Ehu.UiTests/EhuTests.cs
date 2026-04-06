@@ -29,6 +29,7 @@ public class EhuTests : BaseUiTest
         homePage.ClickAbout();
 
         var aboutPage = new AboutPage(Driver);
+        aboutPage.WaitUntilOpened();
 
         Assert.Multiple(() =>
         {
@@ -46,12 +47,8 @@ public class EhuTests : BaseUiTest
         homePage.AcceptCookiesIfPresent();
         homePage.Search("study programs");
 
-        Wait.Until(d =>
-            d.Url.Contains("study+programs") ||
-            d.Url.Contains("study%20programs") ||
-            d.PageSource.Contains("Study programs"));
-
         var contentPage = new ContentPage(Driver);
+        contentPage.WaitUntilContainsAnyText("study programs", "bachelor", "master");
 
         Assert.That(contentPage.ContainsAnyText("study programs", "bachelor", "master"), Is.True);
     }
@@ -63,13 +60,11 @@ public class EhuTests : BaseUiTest
         var homePage = new HomePage(Driver).Open();
         homePage.AcceptCookiesIfPresent();
         homePage.SwitchToLithuanian();
-
-        Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));
+        
+        var contentPage = new ContentPage(Driver);
+        contentPage.WaitUntilUrlContains("lt.ehuniversity.lt");
 
         Assert.That(Driver.Url, Does.Contain("lt.ehuniversity.lt"));
-
-        var contentPage = new ContentPage(Driver);
-
         Assert.That(contentPage.ContainsAnyText("apie mus", "studijos", "europos humanitarinis universitetas"), Is.True);
     }
 
@@ -79,8 +74,7 @@ public class EhuTests : BaseUiTest
     public void Test_04_Verify_Contact_Info_Contains_Expected_Text(string expectedText)
     {
         var contactsPage = new ContactsPage(Driver).Open();
-
-        Wait.Until(d => contactsPage.IsOpened());
+        contactsPage.WaitUntilOpened();
 
         Assert.That(contactsPage.ContainsText(expectedText), Is.True);
     }

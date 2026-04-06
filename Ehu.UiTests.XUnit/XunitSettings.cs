@@ -1,1 +1,1 @@
-﻿[assembly: CollectionBehavior(DisableTestParallelization = false, MaxParallelThreads = 2)]
+﻿[assembly: CollectionBehavior(DisableTestParallelization = false, MaxParallelThreads = 1)]

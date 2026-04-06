@@ -68,4 +68,9 @@ public abstract class BasePage
     {
         Driver.Navigate().GoToUrl(url);
     }
+
+    public void WaitUntilUrlContains(string urlPart)
+    {
+        Wait.Until(d => d.Url.Contains(urlPart));
+    }
 }

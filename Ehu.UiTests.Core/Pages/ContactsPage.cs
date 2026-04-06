@@ -15,6 +15,11 @@ public class ContactsPage : BasePage
         return this;
     }
 
+    public void WaitUntilOpened()
+    {
+        WaitUntilUrlContains("/contacts");
+    }
+
     public bool IsOpened()
     {
         return Driver.Url.Contains("/contacts");

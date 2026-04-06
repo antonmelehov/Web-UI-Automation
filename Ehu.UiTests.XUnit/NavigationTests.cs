@@ -14,6 +14,7 @@ public class NavigationTests : BaseUiTest
         homePage.ClickAbout();
 
         var aboutPage = new AboutPage(Driver);
+        aboutPage.WaitUntilOpened();
 
         Assert.Multiple(() =>
         {

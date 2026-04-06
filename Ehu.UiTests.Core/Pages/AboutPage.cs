@@ -10,6 +10,11 @@ public class AboutPage : BasePage
     {
     }
 
+    public void WaitUntilOpened()
+    {
+        WaitUntilUrlContains("/about/");
+    }
+
     public bool IsOpened()
     {
         return Driver.Url.Contains("/about/");

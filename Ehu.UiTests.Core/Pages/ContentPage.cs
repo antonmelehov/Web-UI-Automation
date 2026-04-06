@@ -25,4 +25,9 @@ public class ContentPage : BasePage
         return expectedTexts.Any(text =>
             bodyText.Contains(text, StringComparison.OrdinalIgnoreCase));
     }
+
+    public void WaitUntilContainsAnyText(params string[] expectedTexts)
+    {
+        Wait.Until(_ => ContainsAnyText(expectedTexts));
+    }
 }

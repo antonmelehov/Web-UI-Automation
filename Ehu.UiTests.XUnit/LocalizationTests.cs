@@ -13,12 +13,10 @@ public class LocalizationTests : BaseUiTest
         homePage.AcceptCookiesIfPresent();
         homePage.SwitchToLithuanian();
 
-        Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));
+        var contentPage = new ContentPage(Driver);
+        contentPage.WaitUntilUrlContains("lt.ehuniversity.lt");
 
         Assert.Contains("lt.ehuniversity.lt", Driver.Url);
-
-        var contentPage = new ContentPage(Driver);
-
         Assert.True(contentPage.ContainsAnyText("apie mus", "studijos", "europos humanitarinis universitetas"));
     }
 }
