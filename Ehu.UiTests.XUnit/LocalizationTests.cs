@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using Ehu.UiTests.Core.Configuration;
 
 namespace Ehu.UiTests.XUnit;
 
@@ -22,7 +23,7 @@ public class LocalizationTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl(LithuanianHomePageUrl);
+            Driver.Navigate().GoToUrl(TestSettings.Instance.LithuanianHomePageUrl);
         }
 
         Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));

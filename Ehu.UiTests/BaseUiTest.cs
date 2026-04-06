@@ -2,19 +2,14 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using Ehu.UiTests.Core.Configuration;
 
 namespace Ehu.UiTests;
 
 public class BaseUiTest
 {
-    protected const string HomePageUrl = "https://en.ehuniversity.lt/";
-    protected const string LithuanianHomePageUrl = "https://lt.ehuniversity.lt/";
-    protected const string ContactsPageUrl = "https://en.ehuniversity.lt/contacts/";
-
     protected IWebDriver Driver = null!;
     protected WebDriverWait Wait = null!;
-
-    private static readonly TimeSpan DefaultWaitTimeout = TimeSpan.FromSeconds(15);
 
     [SetUp]
     public void SetUp()
@@ -23,7 +18,7 @@ public class BaseUiTest
         options.AddArgument("--start-maximized");
 
         Driver = new ChromeDriver(options);
-        Wait = new WebDriverWait(Driver, DefaultWaitTimeout);
+        Wait = new WebDriverWait(Driver, TestSettings.Instance.DefaultWaitTimeout);
     }
 
     [TearDown]
@@ -91,7 +86,7 @@ public class BaseUiTest
 
     protected void OpenHomePage()
     {
-        Driver.Navigate().GoToUrl(HomePageUrl);
+        Driver.Navigate().GoToUrl(TestSettings.Instance.HomePageUrl);
     }
 
     protected string GetNormalizedBodyText()

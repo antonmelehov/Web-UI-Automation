@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using Ehu.UiTests.Core.Configuration;
 
 namespace Ehu.UiTests.XUnit;
 
@@ -24,7 +25,7 @@ public class SearchTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl($"{HomePageUrl}?s=study+programs");
+            Driver.Navigate().GoToUrl($"{TestSettings.Instance.HomePageUrl}?s=study+programs");
         }
 
         Wait.Until(d =>

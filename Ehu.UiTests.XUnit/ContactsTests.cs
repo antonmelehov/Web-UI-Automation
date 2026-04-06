@@ -1,4 +1,6 @@
-﻿namespace Ehu.UiTests.XUnit;
+﻿using Ehu.UiTests.Core.Configuration;
+
+namespace Ehu.UiTests.XUnit;
 
 public class ContactsTests : BaseUiTest
 {
@@ -18,7 +20,7 @@ public class ContactsTests : BaseUiTest
     [Trait("Category", "Contacts")]
     public void Contact_Info_Contains_Expected_Text(string expectedText)
     {
-        Driver.Navigate().GoToUrl(ContactsPageUrl);
+        Driver.Navigate().GoToUrl(TestSettings.Instance.ContactsPageUrl);
 
         Wait.Until(d => d.Url.Contains("/contacts"));
 

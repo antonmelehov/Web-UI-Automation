@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
+using Ehu.UiTests.Core.Configuration;
 
 namespace Ehu.UiTests;
 
@@ -59,7 +60,7 @@ public class EhuTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl($"{HomePageUrl}?s=study+programs");
+            Driver.Navigate().GoToUrl($"{TestSettings.Instance.HomePageUrl}?s=study+programs");
         }
 
         Wait.Until(d =>
@@ -88,7 +89,7 @@ public class EhuTests : BaseUiTest
         }
         else
         {
-            Driver.Navigate().GoToUrl(LithuanianHomePageUrl);
+            Driver.Navigate().GoToUrl(TestSettings.Instance.LithuanianHomePageUrl);
         }
 
         Wait.Until(d => d.Url.Contains("lt.ehuniversity.lt"));
@@ -104,7 +105,7 @@ public class EhuTests : BaseUiTest
     [TestCaseSource(nameof(ContactInfoTexts))]
     public void Test_04_Verify_Contact_Info_Contains_Expected_Text(string expectedText)
     {
-        Driver.Navigate().GoToUrl(ContactsPageUrl);
+        Driver.Navigate().GoToUrl(TestSettings.Instance.ContactsPageUrl);
 
         Wait.Until(d => d.Url.Contains("/contacts"));
 
