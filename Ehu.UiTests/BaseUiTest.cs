@@ -3,6 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using Ehu.UiTests.Core.Configuration;
+using Ehu.UiTests.Core.Drivers;
 
 namespace Ehu.UiTests;
 
@@ -14,10 +15,7 @@ public class BaseUiTest
     [SetUp]
     public void SetUp()
     {
-        var options = new ChromeOptions();
-        options.AddArgument("--start-maximized");
-
-        Driver = new ChromeDriver(options);
+        Driver = WebDriverFactory.CreateChromeDriver();
         Wait = new WebDriverWait(Driver, TestSettings.Instance.DefaultWaitTimeout);
     }
 
