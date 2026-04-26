@@ -29,4 +29,8 @@
         </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="allure-report-artifacts\allure-report\" />
+    </ItemGroup>
+
 </Project>
