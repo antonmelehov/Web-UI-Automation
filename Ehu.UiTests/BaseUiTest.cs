@@ -1,13 +1,15 @@
-﻿using System.Diagnostics;
+﻿using Allure.NUnit;
 using Ehu.UiTests.Core.Drivers;
 using Ehu.UiTests.Logging;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using Serilog;
+using System.Diagnostics;
 
 namespace Ehu.UiTests;
 
+[AllureNUnit]
 public class BaseUiTest
 {
     protected IWebDriver Driver = null!;
