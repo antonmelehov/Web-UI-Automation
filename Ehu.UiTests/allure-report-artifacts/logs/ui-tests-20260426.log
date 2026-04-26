@@ -1,0 +1,96 @@
+2026-04-26 16:26:49.739 [INF] Starting test: Test_01_Open_About_Page
+2026-04-26 16:27:11.088 [DBG] WebDriver created successfully for test: Test_01_Open_About_Page
+2026-04-26 16:27:35.121 [INF] Test passed: Test_01_Open_About_Page. Duration: "00:00:45.3634462"s
+2026-04-26 16:27:35.324 [DBG] WebDriver disposed for test: Test_01_Open_About_Page
+2026-04-26 16:27:35.325 [INF] Starting test: Test_02_Search_Study_Programs
+2026-04-26 16:27:36.747 [DBG] WebDriver created successfully for test: Test_02_Search_Study_Programs
+2026-04-26 16:27:58.699 [INF] Test passed: Test_02_Search_Study_Programs. Duration: "00:00:23.3731521"s
+2026-04-26 16:27:58.873 [DBG] WebDriver disposed for test: Test_02_Search_Study_Programs
+2026-04-26 16:27:58.874 [INF] Starting test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 16:28:00.225 [DBG] WebDriver created successfully for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 16:28:37.491 [INF] Test passed: Test_03_Change_Language_To_Lithuanian. Duration: "00:00:38.6173121"s
+2026-04-26 16:28:37.722 [DBG] WebDriver disposed for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 16:28:37.722 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 16:28:39.085 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 16:28:44.491 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt"). Duration: "00:00:06.7688310"s
+2026-04-26 16:28:44.610 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 16:28:44.610 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 16:28:45.965 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 16:28:52.276 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt"). Duration: "00:00:07.6659377"s
+2026-04-26 16:28:52.406 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 16:28:52.406 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 16:28:53.807 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 16:28:58.390 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt"). Duration: "00:00:05.9837178"s
+2026-04-26 16:28:58.509 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 16:28:58.509 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 16:28:59.858 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 16:29:04.614 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650"). Duration: "00:00:06.1046791"s
+2026-04-26 16:29:04.732 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 16:29:04.732 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 16:29:06.108 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 16:29:10.717 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook"). Duration: "00:00:05.9848486"s
+2026-04-26 16:29:10.851 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:12:38.925 [INF] Starting test: Test_01_Open_About_Page
+2026-04-26 17:12:40.323 [DBG] WebDriver created successfully for test: Test_01_Open_About_Page
+2026-04-26 17:12:52.912 [INF] Test passed: Test_01_Open_About_Page. Duration: "00:00:13.9620710"s
+2026-04-26 17:12:53.137 [DBG] WebDriver disposed for test: Test_01_Open_About_Page
+2026-04-26 17:12:53.139 [INF] Starting test: Test_02_Search_Study_Programs
+2026-04-26 17:12:54.560 [DBG] WebDriver created successfully for test: Test_02_Search_Study_Programs
+2026-04-26 17:13:08.492 [INF] Test passed: Test_02_Search_Study_Programs. Duration: "00:00:15.3523013"s
+2026-04-26 17:13:08.682 [DBG] WebDriver disposed for test: Test_02_Search_Study_Programs
+2026-04-26 17:13:08.682 [INF] Starting test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:13:10.041 [DBG] WebDriver created successfully for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:13:43.794 [INF] Test passed: Test_03_Change_Language_To_Lithuanian. Duration: "00:00:35.1115502"s
+2026-04-26 17:13:44.014 [DBG] WebDriver disposed for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:13:44.015 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:13:45.381 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:13:49.833 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt"). Duration: "00:00:05.8187010"s
+2026-04-26 17:13:49.959 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:13:49.959 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:13:51.316 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:13:55.640 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt"). Duration: "00:00:05.6807945"s
+2026-04-26 17:13:55.761 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:13:55.761 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:13:57.119 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:14:01.920 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt"). Duration: "00:00:06.1591844"s
+2026-04-26 17:14:02.036 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:14:02.036 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:14:03.519 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:14:08.638 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650"). Duration: "00:00:06.6017843"s
+2026-04-26 17:14:08.756 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:14:08.756 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:14:10.155 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:14:14.844 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook"). Duration: "00:00:06.0878077"s
+2026-04-26 17:14:14.973 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:21:50.373 [INF] Starting test: Test_01_Open_About_Page
+2026-04-26 17:21:51.475 [DBG] WebDriver created successfully for test: Test_01_Open_About_Page
+2026-04-26 17:22:17.047 [INF] Test passed: Test_01_Open_About_Page. Duration: "00:00:26.6553369"s
+2026-04-26 17:22:17.247 [DBG] WebDriver disposed for test: Test_01_Open_About_Page
+2026-04-26 17:22:17.279 [INF] Starting test: Test_02_Search_Study_Programs
+2026-04-26 17:22:18.665 [DBG] WebDriver created successfully for test: Test_02_Search_Study_Programs
+2026-04-26 17:22:46.256 [INF] Test passed: Test_02_Search_Study_Programs. Duration: "00:00:28.9777005"s
+2026-04-26 17:22:46.446 [DBG] WebDriver disposed for test: Test_02_Search_Study_Programs
+2026-04-26 17:22:46.448 [INF] Starting test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:22:47.846 [DBG] WebDriver created successfully for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:23:17.400 [INF] Test passed: Test_03_Change_Language_To_Lithuanian. Duration: "00:00:30.9512523"s
+2026-04-26 17:23:17.634 [DBG] WebDriver disposed for test: Test_03_Change_Language_To_Lithuanian
+2026-04-26 17:23:17.638 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:23:19.051 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:23:23.201 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt"). Duration: "00:00:05.5636541"s
+2026-04-26 17:23:23.328 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("consult@ehu.lt")
+2026-04-26 17:23:23.331 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:23:24.695 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:23:30.569 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt"). Duration: "00:00:07.2378585"s
+2026-04-26 17:23:30.690 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("press@ehu.lt")
+2026-04-26 17:23:30.691 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:23:32.115 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:23:36.143 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt"). Duration: "00:00:05.4516287"s
+2026-04-26 17:23:36.282 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("office@ehu.lt")
+2026-04-26 17:23:36.284 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:23:37.712 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:23:41.875 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650"). Duration: "00:00:05.5915352"s
+2026-04-26 17:23:41.996 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("+370 5 263 9650")
+2026-04-26 17:23:41.997 [INF] Starting test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:23:43.418 [DBG] WebDriver created successfully for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")
+2026-04-26 17:23:48.269 [INF] Test passed: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook"). Duration: "00:00:06.2714711"s
+2026-04-26 17:23:48.395 [DBG] WebDriver disposed for test: Test_04_Verify_Contact_Info_Contains_Expected_Text("Facebook")

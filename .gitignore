@@ -16,6 +16,9 @@ TestResults/
 *.trx
 
 *.log
+!Ehu.UiTests/allure-report-artifacts/
+!Ehu.UiTests/allure-report-artifacts/logs/
+!Ehu.UiTests/allure-report-artifacts/logs/ui-tests-20260426.log
 
 .DS_Store
 Thumbs.db
