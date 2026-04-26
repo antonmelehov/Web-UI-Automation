@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using Ehu.UiTests.Core.Configuration;
+using Shouldly;
 using Ehu.UiTests.Core.Pages;
 
 namespace Ehu.UiTests;
@@ -31,12 +30,9 @@ public class EhuTests : BaseUiTest
         var aboutPage = new AboutPage(Driver);
         aboutPage.WaitUntilOpened();
 
-        Assert.Multiple(() =>
-        {
-            Assert.That(aboutPage.IsOpened(), Is.True);
-            Assert.That(Driver.Title, Does.Contain("About"));
-            Assert.That(aboutPage.HeaderContains("About"), Is.True);
-        });
+        aboutPage.IsOpened().ShouldBeTrue();
+        Driver.Title.ShouldContain("About");
+        aboutPage.HeaderContains("About").ShouldBeTrue();
     }
 
     [Test]
@@ -50,7 +46,7 @@ public class EhuTests : BaseUiTest
         var contentPage = new ContentPage(Driver);
         contentPage.WaitUntilContainsAnyText("study programs", "bachelor", "master");
 
-        Assert.That(contentPage.ContainsAnyText("study programs", "bachelor", "master"), Is.True);
+        contentPage.ContainsAnyText("study programs", "bachelor", "master").ShouldBeTrue();
     }
 
     [Test]
@@ -64,8 +60,8 @@ public class EhuTests : BaseUiTest
         var contentPage = new ContentPage(Driver);
         contentPage.WaitUntilUrlContains("lt.ehuniversity.lt");
 
-        Assert.That(Driver.Url, Does.Contain("lt.ehuniversity.lt"));
-        Assert.That(contentPage.ContainsAnyText("apie mus", "studijos", "europos humanitarinis universitetas"), Is.True);
+        Driver.Url.ShouldContain("lt.ehuniversity.lt");
+        contentPage.ContainsAnyText("apie mus", "studijos", "europos humanitarinis universitetas").ShouldBeTrue();
     }
 
     [Test]
@@ -76,6 +72,6 @@ public class EhuTests : BaseUiTest
         var contactsPage = new ContactsPage(Driver).Open();
         contactsPage.WaitUntilOpened();
 
-        Assert.That(contactsPage.ContainsText(expectedText), Is.True);
+        contactsPage.ContainsText(expectedText).ShouldBeTrue();
     }
 }
