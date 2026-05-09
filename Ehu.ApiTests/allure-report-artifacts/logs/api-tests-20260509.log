@@ -1,0 +1,640 @@
+2026-05-09 16:29:47.156 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:29:47.666 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:29:47.680 [DBG] Sending POST request to create a book
+2026-05-09 16:29:48.187 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.0091016". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:29:48.251 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:29:48.494 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:29:48.495 [DBG] Sending POST request to create a book
+2026-05-09 16:29:48.751 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.4997457". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:29:48.758 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:29:49.057 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:29:49.058 [DBG] Sending POST request to create a book
+2026-05-09 16:29:49.331 [ERR] API test failed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.5734365". Message: Shouldly.ShouldAssertException : firstResponse.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:36:25.912 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:36:26.441 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:36:26.446 [DBG] Sending POST request to create a book
+2026-05-09 16:36:26.923 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:00.9906810". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:36:26.979 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:36:27.315 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:36:27.317 [DBG] Sending POST request to create a book
+2026-05-09 16:36:27.556 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5762547". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:36:27.557 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:36:27.889 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:36:27.890 [DBG] Sending POST request to create a book
+2026-05-09 16:36:28.135 [ERR] API test failed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.5778046". Message: Shouldly.ShouldAssertException : firstResponse.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:36:28.137 [INF] Starting API test: Get_All_Books_Should_Return_200
+2026-05-09 16:36:28.515 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_200
+2026-05-09 16:36:28.516 [DBG] Sending GET request for all books
+2026-05-09 16:36:28.762 [ERR] API test failed: Get_All_Books_Should_Return_200. Duration: "00:00:00.6252426". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.OK
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:38:09.646 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:38:10.175 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:38:10.179 [DBG] Sending POST request to create a book
+2026-05-09 16:38:10.707 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.0387161". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:38:10.759 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:38:11.055 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:38:11.056 [DBG] Sending POST request to create a book
+2026-05-09 16:38:11.282 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5233120". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:38:11.284 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:38:11.556 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:38:11.557 [DBG] Sending POST request to create a book
+2026-05-09 16:38:11.809 [ERR] API test failed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.5248693". Message: Shouldly.ShouldAssertException : firstResponse.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:38:11.811 [INF] Starting API test: Get_All_Books_Should_Return_200
+2026-05-09 16:38:12.069 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_200
+2026-05-09 16:38:12.070 [DBG] Sending GET request for all books
+2026-05-09 16:38:12.313 [INF] Create book response status: "Forbidden"
+2026-05-09 16:38:12.314 [INF] Create book response body: <!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>
+2026-05-09 16:38:12.315 [ERR] API test failed: Get_All_Books_Should_Return_200. Duration: "00:00:00.5043007". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.OK
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:39:15.204 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:39:15.764 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 16:39:15.769 [DBG] Sending POST request to create a book
+2026-05-09 16:39:16.200 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:00.9741739". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:39:16.257 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:39:16.527 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 16:39:16.528 [DBG] Sending POST request to create a book
+2026-05-09 16:39:16.810 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5526287". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:39:16.812 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:39:17.101 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 16:39:17.102 [DBG] Sending POST request to create a book
+2026-05-09 16:39:17.352 [ERR] API test failed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.5403160". Message: Shouldly.ShouldAssertException : firstResponse.StatusCode
+    should be
+HttpStatusCode.Created
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 16:39:17.354 [INF] Starting API test: Get_All_Books_Should_Return_200
+2026-05-09 16:39:17.843 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_200
+2026-05-09 16:39:17.851 [DBG] Sending GET request for all books
+2026-05-09 16:39:18.127 [INF] Create book response status: "Forbidden"
+2026-05-09 16:39:18.128 [INF] Create book response body: <!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>
+2026-05-09 16:39:18.129 [ERR] API test failed: Get_All_Books_Should_Return_200. Duration: "00:00:00.7748992". Message: Shouldly.ShouldAssertException : response.StatusCode
+    should be
+HttpStatusCode.OK
+    but was
+HttpStatusCode.Forbidden
+2026-05-09 20:03:18.596 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:03:19.261 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:03:19.270 [DBG] Sending POST request to create a book
+2026-05-09 20:03:19.943 [INF] Create book response status: "Created"
+2026-05-09 20:03:19.944 [INF] Create book response body: {"id":"7399923b-6237-409a-8b65-2792094c952a","title":"War and Peace 62d8ca12","author":"Leo Tolstoy","isbn":"978-0199232-62d8ca12","publishedDate":"2026-05-09T17:03:19.2680542Z"}
+2026-05-09 20:03:19.944 [DBG] Registered created book for cleanup: "7399923b-6237-409a-8b65-2792094c952a"
+2026-05-09 20:03:20.046 [DBG] Cleanup delete request for book "7399923b-6237-409a-8b65-2792094c952a". Status code: 204
+2026-05-09 20:03:20.047 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.3224046"
+2026-05-09 20:03:20.123 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:03:20.448 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:03:20.449 [DBG] Sending POST request to create a book
+2026-05-09 20:03:20.739 [ERR] API test failed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.6154082". Message: Shouldly.ShouldAssertException : createdBook.IsAvailable
+    should be
+True
+    but was
+null
+2026-05-09 20:03:20.743 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:03:21.072 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:03:21.073 [DBG] Sending POST request to create a book
+2026-05-09 20:03:21.285 [DBG] Registered created book for cleanup: "b6ba143d-9031-44b1-9163-b01acbb9e87e"
+2026-05-09 20:03:21.285 [DBG] Sending POST request to create a book
+2026-05-09 20:03:21.476 [DBG] Cleanup delete request for book "b6ba143d-9031-44b1-9163-b01acbb9e87e". Status code: 204
+2026-05-09 20:03:21.476 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6571297"
+2026-05-09 20:03:21.478 [INF] Starting API test: Get_All_Books_Should_Return_200
+2026-05-09 20:03:21.817 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_200
+2026-05-09 20:03:21.819 [DBG] Sending GET request for all books
+2026-05-09 20:03:22.066 [INF] Create book response status: "OK"
+2026-05-09 20:03:22.066 [INF] Create book response body: [{"id":"c0e362b6-f2f4-4642-9961-544a87f33a97","title":"Don Quixote","author":"Miguel de Cervantes","isbn":"978-0060934347","publishedDate":"1605-01-16T00:00:00"},{"id":"c5b7b183-59c0-4d71-9b55-b0d15291d9e4","title":"Pride and Prejudice","author":"Jane Austen","isbn":"978-1503290563","publishedDate":"1813-01-28T00:00:00"},{"id":"a46f70f3-b0fc-4147-854d-61879ab87d83","title":"Jane Eyre","author":"Charlotte Brontë","isbn":"978-0141441146","publishedDate":"1847-10-16T00:00:00"},{"id":"6586b315-750e-429e-95ad-8ed013038705","title":"Wuthering Heights","author":"Emily Brontë","isbn":"978-0141439556","publishedDate":"1847-12-01T00:00:00"},{"id":"b227c64b-d899-44a4-8fa0-c53a730d52fc","title":"Moby-Dick","author":"Herman Melville","isbn":"978-1503280786","publishedDate":"1851-10-18T00:00:00"},{"id":"bc5a7b9a-ffb4-47ef-a9f3-b8704f04ac03","title":"Les Misérables","author":"Victor Hugo","isbn":"978-0451419439","publishedDate":"1862-04-03T00:00:00"},{"id":"eb470f78-ff83-41ae-909a-86a2b1ba83f6","title":"The Adventures of Huckleberry Finn","author":"Mark Twain","isbn":"978-0486280615","publishedDate":"1884-12-10T00:00:00"},{"id":"7bca0f07-6755-4c94-85c8-d92762cb8ba1","title":"The Great Gatsby","author":"F. Scott Fitzgerald","isbn":"978-0743273565","publishedDate":"1925-04-10T00:00:00"},{"id":"a31b5785-8e08-4f10-b00b-946bb7cc7041","title":"Brave New World","author":"Aldous Huxley","isbn":"978-0060850524","publishedDate":"1932-08-30T00:00:00"},{"id":"f407629f-3fa7-4ec5-9d5f-f38cba7ba7f1","title":"The Hobbit","author":"J.R.R. Tolkien","isbn":"978-0547928227","publishedDate":"1937-09-21T00:00:00"},{"id":"69e4461f-245f-41f0-bb34-8fa82f07bcf5","title":"1984","author":"George Orwell","isbn":"978-0451524935","publishedDate":"1949-06-08T00:00:00"},{"id":"3f0d0652-9a9d-464b-bde2-17247f497ae0","title":"The Catcher in the Rye","author":"J.D. Salinger","isbn":"978-0316769488","publishedDate":"1951-07-16T00:00:00"},{"id":"d5b7c827-04db-4ecf-b6d6-bdeed470e503","title":"The Lord of the Rings","author":"J.R.R. Tolkien","isbn":"978-0544003415","publishedDate":"1954-07-29T00:00:00"},{"id":"ba1b5f13-7043-4d83-aad9-2742d9868742","title":"To Kill a Mockingbird","author":"Harper Lee","isbn":"978-0061120084","publishedDate":"1960-07-11T00:00:00"},{"id":"cdd30714-9e19-4ba0-890b-1cf354f1cdb3","title":"Harry Potter and the Sorcerer's Stone","author":"J.K. Rowling","isbn":"978-0590353427","publishedDate":"1997-06-26T00:00:00"},{"id":"99a8e489-c573-4aaf-8470-d71e73154643","title":"Harry Potter and the Chamber of Secrets","author":"J.K. Rowling","isbn":"978-0439064873","publishedDate":"1998-07-02T00:00:00"},{"id":"8fe94047-6f55-44ff-a14e-080045505f62","title":"Harry Potter and the Prisoner of Azkaban","author":"J.K. Rowling","isbn":"978-0439136365","publishedDate":"1999-07-08T00:00:00"},{"id":"b4f6d5b2-b399-4ff0-9f47-88cc680256ed","title":"Harry Potter and the Goblet of Fire","author":"J.K. Rowling","isbn":"978-0439139601","publishedDate":"2000-07-08T00:00:00"},{"id":"6aa69e2b-32ad-478d-b426-3f4d8f009e11","title":"Harry Potter and the Order of the Phoenix","author":"J.K. Rowling","isbn":"978-0439358071","publishedDate":"2003-06-21T00:00:00"},{"id":"063541ab-038d-4c41-b946-3d44a74856a4","title":"Harry Potter and the Half-Blood Prince","author":"J.K. Rowling","isbn":"978-0439785969","publishedDate":"2005-07-16T00:00:00"},{"id":"856495df-9dd7-4703-a6ec-6c9f4fe06f28","title":"Harry Potter and the Deathly Hallows","author":"J.K. Rowling","isbn":"978-0545010221","publishedDate":"2007-07-21T00:00:00"},{"id":"40c9b50f-3738-41e2-8235-1275b0454aac","title":"War and Peace 6bf12e6a","author":"Leo Tolstoy","isbn":"978-0199232-6bf12e6a","publishedDate":"2026-05-09T17:03:20.4499309Z"}]
+2026-05-09 20:03:22.066 [INF] API test passed: Get_All_Books_Should_Return_200. Duration: "00:00:00.5883892"
+2026-05-09 20:10:41.528 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:10:42.109 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:10:42.117 [DBG] Sending POST request to create a book
+2026-05-09 20:10:42.531 [INF] Create book response status: "Created"
+2026-05-09 20:10:42.532 [INF] Create book response body: {"id":"d6a5cf4c-025c-4c6c-ad50-0d1e37101aea","title":"War and Peace 35ebbe81","author":"Leo Tolstoy","isbn":"978-0199232-35ebbe81","publishedDate":"2026-05-09T17:10:42.1152801Z"}
+2026-05-09 20:10:42.532 [DBG] Registered created book for cleanup: "d6a5cf4c-025c-4c6c-ad50-0d1e37101aea"
+2026-05-09 20:10:42.613 [DBG] Cleanup delete request for book "d6a5cf4c-025c-4c6c-ad50-0d1e37101aea". Status code: 204
+2026-05-09 20:10:42.614 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:00.9834171"
+2026-05-09 20:10:42.674 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:10:42.975 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:10:42.976 [DBG] Sending POST request to create a book
+2026-05-09 20:10:43.237 [DBG] Registered created book for cleanup: "6da69295-8007-46ae-afbf-ff8950c49340"
+2026-05-09 20:10:43.319 [DBG] Cleanup delete request for book "6da69295-8007-46ae-afbf-ff8950c49340". Status code: 204
+2026-05-09 20:10:43.319 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5635797"
+2026-05-09 20:10:43.321 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:10:43.641 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:10:43.642 [DBG] Sending POST request to create a book
+2026-05-09 20:10:43.880 [DBG] Registered created book for cleanup: "65b23661-013d-46f9-8675-141ec34d5430"
+2026-05-09 20:10:43.880 [DBG] Sending POST request to create a book
+2026-05-09 20:10:44.056 [DBG] Cleanup delete request for book "65b23661-013d-46f9-8675-141ec34d5430". Status code: 204
+2026-05-09 20:10:44.056 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6583973"
+2026-05-09 20:10:44.058 [INF] Starting API test: Get_All_Books_Should_Return_200
+2026-05-09 20:10:44.377 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_200
+2026-05-09 20:10:44.378 [DBG] Sending GET request for all books
+2026-05-09 20:10:44.711 [INF] Create book response status: "OK"
+2026-05-09 20:10:44.711 [INF] Create book response body: [{"id":"c0e362b6-f2f4-4642-9961-544a87f33a97","title":"Don Quixote","author":"Miguel de Cervantes","isbn":"978-0060934347","publishedDate":"1605-01-16T00:00:00"},{"id":"c5b7b183-59c0-4d71-9b55-b0d15291d9e4","title":"Pride and Prejudice","author":"Jane Austen","isbn":"978-1503290563","publishedDate":"1813-01-28T00:00:00"},{"id":"a46f70f3-b0fc-4147-854d-61879ab87d83","title":"Jane Eyre","author":"Charlotte Brontë","isbn":"978-0141441146","publishedDate":"1847-10-16T00:00:00"},{"id":"6586b315-750e-429e-95ad-8ed013038705","title":"Wuthering Heights","author":"Emily Brontë","isbn":"978-0141439556","publishedDate":"1847-12-01T00:00:00"},{"id":"b227c64b-d899-44a4-8fa0-c53a730d52fc","title":"Moby-Dick","author":"Herman Melville","isbn":"978-1503280786","publishedDate":"1851-10-18T00:00:00"},{"id":"bc5a7b9a-ffb4-47ef-a9f3-b8704f04ac03","title":"Les Misérables","author":"Victor Hugo","isbn":"978-0451419439","publishedDate":"1862-04-03T00:00:00"},{"id":"eb470f78-ff83-41ae-909a-86a2b1ba83f6","title":"The Adventures of Huckleberry Finn","author":"Mark Twain","isbn":"978-0486280615","publishedDate":"1884-12-10T00:00:00"},{"id":"7bca0f07-6755-4c94-85c8-d92762cb8ba1","title":"The Great Gatsby","author":"F. Scott Fitzgerald","isbn":"978-0743273565","publishedDate":"1925-04-10T00:00:00"},{"id":"a31b5785-8e08-4f10-b00b-946bb7cc7041","title":"Brave New World","author":"Aldous Huxley","isbn":"978-0060850524","publishedDate":"1932-08-30T00:00:00"},{"id":"f407629f-3fa7-4ec5-9d5f-f38cba7ba7f1","title":"The Hobbit","author":"J.R.R. Tolkien","isbn":"978-0547928227","publishedDate":"1937-09-21T00:00:00"},{"id":"69e4461f-245f-41f0-bb34-8fa82f07bcf5","title":"1984","author":"George Orwell","isbn":"978-0451524935","publishedDate":"1949-06-08T00:00:00"},{"id":"3f0d0652-9a9d-464b-bde2-17247f497ae0","title":"The Catcher in the Rye","author":"J.D. Salinger","isbn":"978-0316769488","publishedDate":"1951-07-16T00:00:00"},{"id":"d5b7c827-04db-4ecf-b6d6-bdeed470e503","title":"The Lord of the Rings","author":"J.R.R. Tolkien","isbn":"978-0544003415","publishedDate":"1954-07-29T00:00:00"},{"id":"ba1b5f13-7043-4d83-aad9-2742d9868742","title":"To Kill a Mockingbird","author":"Harper Lee","isbn":"978-0061120084","publishedDate":"1960-07-11T00:00:00"},{"id":"cdd30714-9e19-4ba0-890b-1cf354f1cdb3","title":"Harry Potter and the Sorcerer's Stone","author":"J.K. Rowling","isbn":"978-0590353427","publishedDate":"1997-06-26T00:00:00"},{"id":"99a8e489-c573-4aaf-8470-d71e73154643","title":"Harry Potter and the Chamber of Secrets","author":"J.K. Rowling","isbn":"978-0439064873","publishedDate":"1998-07-02T00:00:00"},{"id":"8fe94047-6f55-44ff-a14e-080045505f62","title":"Harry Potter and the Prisoner of Azkaban","author":"J.K. Rowling","isbn":"978-0439136365","publishedDate":"1999-07-08T00:00:00"},{"id":"b4f6d5b2-b399-4ff0-9f47-88cc680256ed","title":"Harry Potter and the Goblet of Fire","author":"J.K. Rowling","isbn":"978-0439139601","publishedDate":"2000-07-08T00:00:00"},{"id":"6aa69e2b-32ad-478d-b426-3f4d8f009e11","title":"Harry Potter and the Order of the Phoenix","author":"J.K. Rowling","isbn":"978-0439358071","publishedDate":"2003-06-21T00:00:00"},{"id":"063541ab-038d-4c41-b946-3d44a74856a4","title":"Harry Potter and the Half-Blood Prince","author":"J.K. Rowling","isbn":"978-0439785969","publishedDate":"2005-07-16T00:00:00"},{"id":"856495df-9dd7-4703-a6ec-6c9f4fe06f28","title":"Harry Potter and the Deathly Hallows","author":"J.K. Rowling","isbn":"978-0545010221","publishedDate":"2007-07-21T00:00:00"},{"id":"40c9b50f-3738-41e2-8235-1275b0454aac","title":"War and Peace 6bf12e6a","author":"Leo Tolstoy","isbn":"978-0199232-6bf12e6a","publishedDate":"2026-05-09T17:03:20.4499309Z"}]
+2026-05-09 20:10:44.711 [INF] API test passed: Get_All_Books_Should_Return_200. Duration: "00:00:00.6533681"
+2026-05-09 20:16:33.761 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:16:34.361 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:16:34.368 [DBG] Sending POST request to create a book
+2026-05-09 20:16:35.137 [DBG] Registered created book for cleanup: "a362d8fd-28bb-4a45-912e-827dc58c8362"
+2026-05-09 20:16:35.227 [DBG] Cleanup delete request for book "a362d8fd-28bb-4a45-912e-827dc58c8362". Status code: 204
+2026-05-09 20:16:35.228 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.3593856"
+2026-05-09 20:16:35.322 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:16:35.646 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:16:35.647 [DBG] Sending POST request to create a book
+2026-05-09 20:16:35.895 [DBG] Registered created book for cleanup: "a9f95ddf-158a-4d30-adb6-afffbc37b999"
+2026-05-09 20:16:35.968 [DBG] Cleanup delete request for book "a9f95ddf-158a-4d30-adb6-afffbc37b999". Status code: 204
+2026-05-09 20:16:35.968 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5728138"
+2026-05-09 20:16:35.971 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:16:36.293 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:16:36.294 [DBG] Sending POST request to create a book
+2026-05-09 20:16:36.568 [DBG] Registered created book for cleanup: "66de2ed4-d6c0-4cd5-ad93-8cfbf4b5f9f1"
+2026-05-09 20:16:36.568 [DBG] Sending POST request to create a book
+2026-05-09 20:16:36.732 [DBG] Cleanup delete request for book "66de2ed4-d6c0-4cd5-ad93-8cfbf4b5f9f1". Status code: 204
+2026-05-09 20:16:36.732 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6866012"
+2026-05-09 20:16:36.736 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:16:37.093 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:16:37.095 [DBG] Sending POST request to create a book
+2026-05-09 20:16:37.337 [DBG] Registered created book for cleanup: "854f6475-7cb7-4eb9-9d35-4856eaaed802"
+2026-05-09 20:16:37.338 [DBG] Sending GET request for all books
+2026-05-09 20:16:37.508 [DBG] Cleanup delete request for book "854f6475-7cb7-4eb9-9d35-4856eaaed802". Status code: 204
+2026-05-09 20:16:37.508 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.6848730"
+2026-05-09 20:16:37.509 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:16:37.850 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:16:37.851 [DBG] Sending POST request to create a book
+2026-05-09 20:16:38.102 [DBG] Registered created book for cleanup: "d2d7181a-baa7-4de4-a239-90a111d64938"
+2026-05-09 20:16:38.102 [DBG] Sending GET request for all books
+2026-05-09 20:16:38.262 [DBG] Cleanup delete request for book "d2d7181a-baa7-4de4-a239-90a111d64938". Status code: 204
+2026-05-09 20:16:38.262 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.6782430"
+2026-05-09 20:21:42.393 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:21:43.026 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:21:43.030 [DBG] Sending POST request to create a book
+2026-05-09 20:21:43.528 [DBG] Registered created book for cleanup: "f1c226d3-9527-468b-9efd-d93671b33b42"
+2026-05-09 20:21:43.608 [DBG] Cleanup delete request for book "f1c226d3-9527-468b-9efd-d93671b33b42". Status code: 204
+2026-05-09 20:21:43.609 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.1169374"
+2026-05-09 20:21:43.664 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:21:43.931 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:21:43.932 [DBG] Sending POST request to create a book
+2026-05-09 20:21:44.164 [DBG] Registered created book for cleanup: "44a2aa10-bb9d-46cb-926b-38450e806e9c"
+2026-05-09 20:21:44.237 [DBG] Cleanup delete request for book "44a2aa10-bb9d-46cb-926b-38450e806e9c". Status code: 204
+2026-05-09 20:21:44.237 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5009849"
+2026-05-09 20:21:44.240 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:21:44.519 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:21:44.519 [DBG] Sending POST request to create a book
+2026-05-09 20:21:44.827 [DBG] Registered created book for cleanup: "837becf4-a0dd-4924-a75f-42f4fbed8f60"
+2026-05-09 20:21:44.827 [DBG] Sending POST request to create a book
+2026-05-09 20:21:44.995 [DBG] Cleanup delete request for book "837becf4-a0dd-4924-a75f-42f4fbed8f60". Status code: 204
+2026-05-09 20:21:44.996 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6617450"
+2026-05-09 20:21:45.000 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:21:45.297 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:21:45.299 [DBG] Sending POST request to create a book
+2026-05-09 20:21:45.559 [DBG] Registered created book for cleanup: "67fbaba3-9e6c-4e79-a930-74c08afed2d2"
+2026-05-09 20:21:45.560 [DBG] Sending GET request for all books
+2026-05-09 20:21:45.741 [DBG] Cleanup delete request for book "67fbaba3-9e6c-4e79-a930-74c08afed2d2". Status code: 204
+2026-05-09 20:21:45.741 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.6647023"
+2026-05-09 20:21:45.743 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:21:46.059 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:21:46.060 [DBG] Sending POST request to create a book
+2026-05-09 20:21:46.289 [DBG] Registered created book for cleanup: "d10d4e08-dac9-4208-a37a-ac54c2e602b0"
+2026-05-09 20:21:46.289 [DBG] Sending GET request for all books
+2026-05-09 20:21:46.456 [DBG] Cleanup delete request for book "d10d4e08-dac9-4208-a37a-ac54c2e602b0". Status code: 204
+2026-05-09 20:21:46.457 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.6226440"
+2026-05-09 20:21:46.459 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:21:46.761 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:21:46.762 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:21:47.063 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.6039175"
+2026-05-09 20:21:47.065 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:21:47.341 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:21:47.342 [DBG] Sending GET request for book by id: 5a5d5005-e826-4668-8c96-794cabe83de6
+2026-05-09 20:21:47.599 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5347520"
+2026-05-09 20:21:47.601 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:21:47.866 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:21:47.868 [DBG] Sending POST request to create a book
+2026-05-09 20:21:48.128 [DBG] Registered created book for cleanup: "8c499924-11b8-4ea9-9f69-f6b96fec4b14"
+2026-05-09 20:21:48.129 [DBG] Sending GET request for book by id: 8c499924-11b8-4ea9-9f69-f6b96fec4b14
+2026-05-09 20:21:48.275 [DBG] Cleanup delete request for book "8c499924-11b8-4ea9-9f69-f6b96fec4b14". Status code: 204
+2026-05-09 20:21:48.275 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:00.6005802"
+2026-05-09 20:29:41.834 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:29:42.418 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:29:42.423 [DBG] Sending POST request to create a book
+2026-05-09 20:29:42.924 [DBG] Registered created book for cleanup: "8e9a3f21-8174-4515-aceb-8fa64dff7a2d"
+2026-05-09 20:29:43.007 [DBG] Cleanup delete request for book "8e9a3f21-8174-4515-aceb-8fa64dff7a2d". Status code: 204
+2026-05-09 20:29:43.009 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.0743136"
+2026-05-09 20:29:43.067 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:29:43.413 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:29:43.415 [DBG] Sending POST request to create a book
+2026-05-09 20:29:43.670 [DBG] Registered created book for cleanup: "d122d738-59d0-43cf-a2ef-e7f34f23dfbe"
+2026-05-09 20:29:43.754 [DBG] Cleanup delete request for book "d122d738-59d0-43cf-a2ef-e7f34f23dfbe". Status code: 204
+2026-05-09 20:29:43.754 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.6028326"
+2026-05-09 20:29:43.757 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:29:44.059 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:29:44.060 [DBG] Sending POST request to create a book
+2026-05-09 20:29:44.309 [DBG] Registered created book for cleanup: "d8486d31-6b4f-4f21-aa21-b7a8fda911bb"
+2026-05-09 20:29:44.309 [DBG] Sending POST request to create a book
+2026-05-09 20:29:44.470 [DBG] Cleanup delete request for book "d8486d31-6b4f-4f21-aa21-b7a8fda911bb". Status code: 204
+2026-05-09 20:29:44.471 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6373165"
+2026-05-09 20:29:44.476 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:29:44.790 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:29:44.791 [DBG] Sending POST request to create a book
+2026-05-09 20:29:45.025 [DBG] Registered created book for cleanup: "ae1faf42-3e74-41cd-bd03-999c669573d1"
+2026-05-09 20:29:45.026 [DBG] Sending GET request for all books
+2026-05-09 20:29:45.367 [DBG] Cleanup delete request for book "ae1faf42-3e74-41cd-bd03-999c669573d1". Status code: 204
+2026-05-09 20:29:45.367 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.6520862"
+2026-05-09 20:29:45.369 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:29:45.712 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:29:45.714 [DBG] Sending POST request to create a book
+2026-05-09 20:29:45.948 [DBG] Registered created book for cleanup: "ca97e9e0-526b-4a69-a9c5-bce16df7d13e"
+2026-05-09 20:29:45.948 [DBG] Sending GET request for all books
+2026-05-09 20:29:46.100 [DBG] Cleanup delete request for book "ca97e9e0-526b-4a69-a9c5-bce16df7d13e". Status code: 204
+2026-05-09 20:29:46.100 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.6512058"
+2026-05-09 20:29:46.102 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:29:46.408 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:29:46.409 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:29:46.657 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5545730"
+2026-05-09 20:29:46.659 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:29:46.984 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:29:46.985 [DBG] Sending GET request for book by id: 6c7af5c6-a07c-4c70-89b6-b2c8863f5322
+2026-05-09 20:29:47.245 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5865309"
+2026-05-09 20:29:47.247 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:29:47.621 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:29:47.623 [DBG] Sending POST request to create a book
+2026-05-09 20:29:47.849 [DBG] Registered created book for cleanup: "20d5356e-dfc6-4e75-be72-36ee395c9d14"
+2026-05-09 20:29:47.849 [DBG] Sending GET request for book by id: 20d5356e-dfc6-4e75-be72-36ee395c9d14
+2026-05-09 20:29:48.002 [DBG] Cleanup delete request for book "20d5356e-dfc6-4e75-be72-36ee395c9d14". Status code: 204
+2026-05-09 20:29:48.002 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:00.6785910"
+2026-05-09 20:29:48.004 [INF] Starting API test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:29:48.332 [DBG] HttpClient initialized successfully for test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:29:48.334 [DBG] Sending PUT request to update book with id: invalid-id
+2026-05-09 20:29:48.628 [INF] API test passed: Update_Book_With_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.6240319"
+2026-05-09 20:29:48.635 [INF] Starting API test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:29:48.978 [DBG] HttpClient initialized successfully for test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:29:48.980 [DBG] Sending PUT request to update book with id: e86004d9-c91a-42bf-858d-c0a04b9a6205
+2026-05-09 20:29:49.217 [INF] API test passed: Update_Book_With_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5814118"
+2026-05-09 20:29:49.218 [INF] Starting API test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:29:49.527 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:29:49.529 [DBG] Sending POST request to create a book
+2026-05-09 20:29:49.787 [DBG] Registered created book for cleanup: "5efb9e79-f72f-4f70-bf2d-5b74262c8c45"
+2026-05-09 20:29:49.787 [DBG] Sending PUT request to update book with id: 5efb9e79-f72f-4f70-bf2d-5b74262c8c45
+2026-05-09 20:29:49.975 [DBG] Cleanup delete request for book "5efb9e79-f72f-4f70-bf2d-5b74262c8c45". Status code: 204
+2026-05-09 20:29:49.975 [INF] API test passed: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body. Duration: "00:00:00.6792457"
+2026-05-09 20:29:49.979 [INF] Starting API test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:29:50.299 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:29:50.300 [DBG] Sending POST request to create a book
+2026-05-09 20:29:50.551 [DBG] Registered created book for cleanup: "54d1f9b1-3fc5-44f0-8fc6-926ca402ed48"
+2026-05-09 20:29:50.551 [DBG] Sending PUT request to update book with id: 54d1f9b1-3fc5-44f0-8fc6-926ca402ed48
+2026-05-09 20:29:50.630 [DBG] Sending GET request for book by id: 54d1f9b1-3fc5-44f0-8fc6-926ca402ed48
+2026-05-09 20:29:50.829 [DBG] Cleanup delete request for book "54d1f9b1-3fc5-44f0-8fc6-926ca402ed48". Status code: 204
+2026-05-09 20:29:50.830 [ERR] API test failed: Update_Existing_Book_With_Valid_Data_Should_Succeed. Duration: "00:00:00.7647091". Message: Shouldly.ShouldAssertException : updatedBook.Isbn
+    should be
+"978-2222222-17a33512"
+    but was
+"978-1111111-d13184c4"
+    difference
+Difference     |                      |    |    |    |    |    |    |         |    |    |    |    |    |    |    |   
+               |                     \|/  \|/  \|/  \|/  \|/  \|/  \|/       \|/  \|/  \|/  \|/  \|/  \|/  \|/  \|/  
+Index          | 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   
+Expected Value | 9    7    8    -    2    2    2    2    2    2    2    -    1    7    a    3    3    5    1    2    
+Actual Value   | 9    7    8    -    1    1    1    1    1    1    1    -    d    1    3    1    8    4    c    4    
+Expected Code  | 57   55   56   45   50   50   50   50   50   50   50   45   49   55   97   51   51   53   49   50   
+Actual Code    | 57   55   56   45   49   49   49   49   49   49   49   45   100  49   51   49   56   52   99   52   
+2026-05-09 20:30:40.482 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:30:41.048 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:30:41.055 [DBG] Sending POST request to create a book
+2026-05-09 20:30:41.440 [DBG] Registered created book for cleanup: "f77f5fad-9622-41b1-b12a-1b118aa33630"
+2026-05-09 20:30:41.518 [DBG] Cleanup delete request for book "f77f5fad-9622-41b1-b12a-1b118aa33630". Status code: 204
+2026-05-09 20:30:41.519 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:00.9359676"
+2026-05-09 20:30:41.573 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:30:41.915 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:30:41.916 [DBG] Sending POST request to create a book
+2026-05-09 20:30:42.150 [DBG] Registered created book for cleanup: "104a365d-7f5c-4662-bb7a-a8c0ca3506f9"
+2026-05-09 20:30:42.219 [DBG] Cleanup delete request for book "104a365d-7f5c-4662-bb7a-a8c0ca3506f9". Status code: 204
+2026-05-09 20:30:42.220 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5777886"
+2026-05-09 20:30:42.222 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:30:42.575 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:30:42.577 [DBG] Sending POST request to create a book
+2026-05-09 20:30:42.834 [DBG] Registered created book for cleanup: "d19d75b5-da67-42a5-9d18-e901e9e36480"
+2026-05-09 20:30:42.834 [DBG] Sending POST request to create a book
+2026-05-09 20:30:42.994 [DBG] Cleanup delete request for book "d19d75b5-da67-42a5-9d18-e901e9e36480". Status code: 204
+2026-05-09 20:30:42.994 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.6877209"
+2026-05-09 20:30:42.998 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:30:43.327 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:30:43.329 [DBG] Sending POST request to create a book
+2026-05-09 20:30:43.569 [DBG] Registered created book for cleanup: "3f5c4525-f136-4727-ba14-488eb04e8fcf"
+2026-05-09 20:30:43.569 [DBG] Sending GET request for all books
+2026-05-09 20:30:43.721 [DBG] Cleanup delete request for book "3f5c4525-f136-4727-ba14-488eb04e8fcf". Status code: 204
+2026-05-09 20:30:43.721 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.6522625"
+2026-05-09 20:30:43.722 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:30:44.089 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:30:44.090 [DBG] Sending POST request to create a book
+2026-05-09 20:30:44.381 [DBG] Registered created book for cleanup: "6b273c35-6652-4e5d-a53f-2785d6a43c1f"
+2026-05-09 20:30:44.381 [DBG] Sending GET request for all books
+2026-05-09 20:30:44.562 [DBG] Cleanup delete request for book "6b273c35-6652-4e5d-a53f-2785d6a43c1f". Status code: 204
+2026-05-09 20:30:44.562 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.7519124"
+2026-05-09 20:30:44.564 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:30:44.895 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:30:44.896 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:30:45.172 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.6082498"
+2026-05-09 20:30:45.174 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:30:45.494 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:30:45.495 [DBG] Sending GET request for book by id: e0de52c7-8a3e-4875-8e73-f98545189bf2
+2026-05-09 20:30:45.749 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5749425"
+2026-05-09 20:30:45.751 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:30:46.083 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:30:46.084 [DBG] Sending POST request to create a book
+2026-05-09 20:30:46.407 [DBG] Registered created book for cleanup: "80ea597f-2697-49ff-9f34-5b63ca568685"
+2026-05-09 20:30:46.407 [DBG] Sending GET request for book by id: 80ea597f-2697-49ff-9f34-5b63ca568685
+2026-05-09 20:30:46.566 [DBG] Cleanup delete request for book "80ea597f-2697-49ff-9f34-5b63ca568685". Status code: 204
+2026-05-09 20:30:46.566 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:00.7364194"
+2026-05-09 20:30:46.568 [INF] Starting API test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:30:46.908 [DBG] HttpClient initialized successfully for test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:30:46.910 [DBG] Sending PUT request to update book with id: invalid-id
+2026-05-09 20:30:47.165 [INF] API test passed: Update_Book_With_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5964883"
+2026-05-09 20:30:47.166 [INF] Starting API test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:30:47.507 [DBG] HttpClient initialized successfully for test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:30:47.508 [DBG] Sending PUT request to update book with id: ecc8a1ac-bb70-424e-837f-c34f6879b843
+2026-05-09 20:30:47.765 [INF] API test passed: Update_Book_With_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5985533"
+2026-05-09 20:30:47.767 [INF] Starting API test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:30:48.111 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:30:48.112 [DBG] Sending POST request to create a book
+2026-05-09 20:30:48.350 [DBG] Registered created book for cleanup: "b26020bd-3c5f-4553-87b2-451716988b70"
+2026-05-09 20:30:48.350 [DBG] Sending PUT request to update book with id: b26020bd-3c5f-4553-87b2-451716988b70
+2026-05-09 20:30:48.507 [DBG] Cleanup delete request for book "b26020bd-3c5f-4553-87b2-451716988b70". Status code: 204
+2026-05-09 20:30:48.507 [INF] API test passed: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body. Duration: "00:00:00.6616281"
+2026-05-09 20:30:48.510 [INF] Starting API test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:30:48.846 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:30:48.847 [DBG] Sending POST request to create a book
+2026-05-09 20:30:49.131 [DBG] Registered created book for cleanup: "32f2721c-4355-4bd4-9b04-009d8e3492ec"
+2026-05-09 20:30:49.131 [DBG] Sending PUT request to update book with id: 32f2721c-4355-4bd4-9b04-009d8e3492ec
+2026-05-09 20:30:49.203 [DBG] Sending GET request for book by id: 32f2721c-4355-4bd4-9b04-009d8e3492ec
+2026-05-09 20:30:49.341 [DBG] Cleanup delete request for book "32f2721c-4355-4bd4-9b04-009d8e3492ec". Status code: 204
+2026-05-09 20:30:49.341 [INF] API test passed: Update_Existing_Book_With_Valid_Data_Should_Succeed. Duration: "00:00:00.7610558"
+2026-05-09 20:33:30.952 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:33:31.574 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:33:31.583 [DBG] Sending POST request to create a book
+2026-05-09 20:33:32.062 [DBG] Registered created book for cleanup: "d4f89039-8e0f-47e8-9384-1cc7218f0873"
+2026-05-09 20:33:32.151 [DBG] Cleanup delete request for book "d4f89039-8e0f-47e8-9384-1cc7218f0873". Status code: 204
+2026-05-09 20:33:32.152 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.0820882"
+2026-05-09 20:33:32.215 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:33:32.503 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:33:32.504 [DBG] Sending POST request to create a book
+2026-05-09 20:33:32.758 [DBG] Registered created book for cleanup: "acc7eb1d-e88e-409b-89b4-2c9815f1900e"
+2026-05-09 20:33:32.862 [DBG] Cleanup delete request for book "acc7eb1d-e88e-409b-89b4-2c9815f1900e". Status code: 204
+2026-05-09 20:33:32.864 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.5434479"
+2026-05-09 20:33:32.867 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:33:33.197 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:33:33.198 [DBG] Sending POST request to create a book
+2026-05-09 20:33:33.494 [DBG] Registered created book for cleanup: "8c374e75-0dff-47ee-9713-9f5e57f322ef"
+2026-05-09 20:33:33.494 [DBG] Sending POST request to create a book
+2026-05-09 20:33:33.700 [DBG] Cleanup delete request for book "8c374e75-0dff-47ee-9713-9f5e57f322ef". Status code: 204
+2026-05-09 20:33:33.700 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.7387002"
+2026-05-09 20:33:33.712 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:33:34.024 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:33:34.032 [DBG] Sending POST request to create a book
+2026-05-09 20:33:34.300 [DBG] Registered created book for cleanup: "6791d026-0563-43be-9bc2-12925a72f46c"
+2026-05-09 20:33:34.301 [DBG] Sending GET request for all books
+2026-05-09 20:33:34.490 [DBG] Cleanup delete request for book "6791d026-0563-43be-9bc2-12925a72f46c". Status code: 204
+2026-05-09 20:33:34.491 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.6980864"
+2026-05-09 20:33:34.499 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:33:34.861 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:33:34.863 [DBG] Sending POST request to create a book
+2026-05-09 20:33:35.116 [DBG] Registered created book for cleanup: "321585b5-b1fb-46d8-a0c6-0336a2861de1"
+2026-05-09 20:33:35.116 [DBG] Sending GET request for all books
+2026-05-09 20:33:35.298 [DBG] Cleanup delete request for book "321585b5-b1fb-46d8-a0c6-0336a2861de1". Status code: 204
+2026-05-09 20:33:35.298 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.7223589"
+2026-05-09 20:33:35.307 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:33:35.620 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:33:35.621 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:33:35.882 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5748950"
+2026-05-09 20:33:35.890 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:33:36.211 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:33:36.212 [DBG] Sending GET request for book by id: 9c177f19-c945-4793-aff2-9897ab407cc6
+2026-05-09 20:33:36.509 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.6188686"
+2026-05-09 20:33:36.518 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:33:37.250 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:33:37.252 [DBG] Sending POST request to create a book
+2026-05-09 20:33:37.514 [DBG] Registered created book for cleanup: "0847494a-077e-4a37-be23-e4c76f0fe525"
+2026-05-09 20:33:37.515 [DBG] Sending GET request for book by id: 0847494a-077e-4a37-be23-e4c76f0fe525
+2026-05-09 20:33:37.682 [DBG] Cleanup delete request for book "0847494a-077e-4a37-be23-e4c76f0fe525". Status code: 204
+2026-05-09 20:33:37.682 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:01.0752128"
+2026-05-09 20:33:37.684 [INF] Starting API test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:33:37.987 [DBG] HttpClient initialized successfully for test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:33:37.988 [DBG] Sending PUT request to update book with id: invalid-id
+2026-05-09 20:33:38.273 [INF] API test passed: Update_Book_With_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5887536"
+2026-05-09 20:33:38.275 [INF] Starting API test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:33:38.611 [DBG] HttpClient initialized successfully for test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:33:38.612 [DBG] Sending PUT request to update book with id: bd45749e-d657-497b-b78a-2d9187455446
+2026-05-09 20:33:38.841 [INF] API test passed: Update_Book_With_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5663976"
+2026-05-09 20:33:38.843 [INF] Starting API test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:33:39.179 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body
+2026-05-09 20:33:39.181 [DBG] Sending POST request to create a book
+2026-05-09 20:33:39.454 [DBG] Registered created book for cleanup: "9840399b-38bd-44e8-a02e-43e36cf8d066"
+2026-05-09 20:33:39.454 [DBG] Sending PUT request to update book with id: 9840399b-38bd-44e8-a02e-43e36cf8d066
+2026-05-09 20:33:39.640 [DBG] Cleanup delete request for book "9840399b-38bd-44e8-a02e-43e36cf8d066". Status code: 204
+2026-05-09 20:33:39.641 [INF] API test passed: Update_Existing_Book_Should_Return_Updated_Data_When_Response_Has_Body. Duration: "00:00:00.7091066"
+2026-05-09 20:33:39.644 [INF] Starting API test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:33:39.949 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:33:39.951 [DBG] Sending POST request to create a book
+2026-05-09 20:33:40.195 [DBG] Registered created book for cleanup: "23fdb947-519c-4582-9666-1a5f96f21b4a"
+2026-05-09 20:33:40.195 [DBG] Sending PUT request to update book with id: 23fdb947-519c-4582-9666-1a5f96f21b4a
+2026-05-09 20:33:40.271 [DBG] Sending GET request for book by id: 23fdb947-519c-4582-9666-1a5f96f21b4a
+2026-05-09 20:33:40.452 [DBG] Cleanup delete request for book "23fdb947-519c-4582-9666-1a5f96f21b4a". Status code: 204
+2026-05-09 20:33:40.453 [ERR] API test failed: Update_Existing_Book_With_Valid_Data_Should_Succeed. Duration: "00:00:00.7297920". Message: Shouldly.ShouldAssertException : updatedBook.Isbn
+    should be
+"978-2222222-70a33568"
+    but was
+"978-1111111-38922cfa"
+    difference
+Difference     |                      |    |    |    |    |    |    |         |    |    |    |    |    |    |    |   
+               |                     \|/  \|/  \|/  \|/  \|/  \|/  \|/       \|/  \|/  \|/  \|/  \|/  \|/  \|/  \|/  
+Index          | 0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   
+Expected Value | 9    7    8    -    2    2    2    2    2    2    2    -    7    0    a    3    3    5    6    8    
+Actual Value   | 9    7    8    -    1    1    1    1    1    1    1    -    3    8    9    2    2    c    f    a    
+Expected Code  | 57   55   56   45   50   50   50   50   50   50   50   45   55   48   97   51   51   53   54   56   
+Actual Code    | 57   55   56   45   49   49   49   49   49   49   49   45   51   56   57   50   50   99   102  97   
+2026-05-09 20:39:59.685 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:40:00.283 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:40:00.288 [DBG] Sending POST request to create a book
+2026-05-09 20:40:00.907 [DBG] Registered created book for cleanup: "94353f6f-a827-40d6-b492-9bb89d47e76f"
+2026-05-09 20:40:01.005 [DBG] Cleanup delete request for book "94353f6f-a827-40d6-b492-9bb89d47e76f". Status code: 204
+2026-05-09 20:40:01.006 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.2057311"
+2026-05-09 20:40:01.064 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:40:01.497 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:40:01.498 [DBG] Sending POST request to create a book
+2026-05-09 20:40:01.909 [DBG] Registered created book for cleanup: "8cc362b3-bcae-45e4-8bd5-d588cd2e023c"
+2026-05-09 20:40:02.007 [DBG] Cleanup delete request for book "8cc362b3-bcae-45e4-8bd5-d588cd2e023c". Status code: 204
+2026-05-09 20:40:02.007 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.8456169"
+2026-05-09 20:40:02.010 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:40:02.413 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:40:02.414 [DBG] Sending POST request to create a book
+2026-05-09 20:40:02.684 [DBG] Registered created book for cleanup: "4aa37e70-6985-45d7-8218-07162fffef94"
+2026-05-09 20:40:02.684 [DBG] Sending POST request to create a book
+2026-05-09 20:40:02.856 [DBG] Cleanup delete request for book "4aa37e70-6985-45d7-8218-07162fffef94". Status code: 204
+2026-05-09 20:40:02.856 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.7611388"
+2026-05-09 20:40:02.861 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:40:03.187 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:40:03.189 [DBG] Sending POST request to create a book
+2026-05-09 20:40:03.488 [DBG] Registered created book for cleanup: "963f05ba-4fe9-4b54-8bae-52927ad7e25e"
+2026-05-09 20:40:03.488 [DBG] Sending GET request for all books
+2026-05-09 20:40:03.736 [DBG] Cleanup delete request for book "963f05ba-4fe9-4b54-8bae-52927ad7e25e". Status code: 204
+2026-05-09 20:40:03.736 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.7745382"
+2026-05-09 20:40:03.738 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:40:04.045 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:40:04.046 [DBG] Sending POST request to create a book
+2026-05-09 20:40:04.291 [DBG] Registered created book for cleanup: "dc08c72e-3477-4bc6-bf87-712bf0aba262"
+2026-05-09 20:40:04.291 [DBG] Sending GET request for all books
+2026-05-09 20:40:04.482 [DBG] Cleanup delete request for book "dc08c72e-3477-4bc6-bf87-712bf0aba262". Status code: 204
+2026-05-09 20:40:04.483 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.6539942"
+2026-05-09 20:40:04.485 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:40:04.828 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:40:04.830 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:40:05.106 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.6212727"
+2026-05-09 20:40:05.108 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:40:05.447 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:40:05.449 [DBG] Sending GET request for book by id: b03874de-d9b3-4c12-807f-60fb0aefcc40
+2026-05-09 20:40:05.725 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.6160069"
+2026-05-09 20:40:05.726 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:40:06.104 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:40:06.107 [DBG] Sending POST request to create a book
+2026-05-09 20:40:06.384 [DBG] Registered created book for cleanup: "fd52e421-7a13-4b04-96e1-f5b04e2fd153"
+2026-05-09 20:40:06.385 [DBG] Sending GET request for book by id: fd52e421-7a13-4b04-96e1-f5b04e2fd153
+2026-05-09 20:40:06.567 [DBG] Cleanup delete request for book "fd52e421-7a13-4b04-96e1-f5b04e2fd153". Status code: 204
+2026-05-09 20:40:06.568 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:00.7573728"
+2026-05-09 20:40:06.569 [INF] Starting API test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:40:06.867 [DBG] HttpClient initialized successfully for test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:40:06.869 [DBG] Sending PUT request to update book with id: invalid-id
+2026-05-09 20:40:07.125 [INF] API test passed: Update_Book_With_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5553942"
+2026-05-09 20:40:07.127 [INF] Starting API test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:40:07.491 [DBG] HttpClient initialized successfully for test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:40:07.492 [DBG] Sending PUT request to update book with id: a16e567b-0e9f-404d-a991-cfe70ccef9ce
+2026-05-09 20:40:07.765 [INF] API test passed: Update_Book_With_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.6381934"
+2026-05-09 20:40:07.767 [INF] Starting API test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:40:08.068 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:40:08.070 [DBG] Sending POST request to create a book
+2026-05-09 20:40:08.325 [DBG] Registered created book for cleanup: "63d35b0f-abd6-4ef8-aaf0-5f395ce5451f"
+2026-05-09 20:40:08.326 [DBG] Sending PUT request to update book with id: 63d35b0f-abd6-4ef8-aaf0-5f395ce5451f
+2026-05-09 20:40:08.403 [DBG] Sending GET request for book by id: 63d35b0f-abd6-4ef8-aaf0-5f395ce5451f
+2026-05-09 20:40:08.562 [DBG] Cleanup delete request for book "63d35b0f-abd6-4ef8-aaf0-5f395ce5451f". Status code: 204
+2026-05-09 20:40:08.562 [INF] API test passed: Update_Existing_Book_With_Valid_Data_Should_Succeed. Duration: "00:00:00.7072013"
+2026-05-09 20:44:52.947 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:44:53.510 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_201
+2026-05-09 20:44:53.515 [DBG] Sending POST request to create a book
+2026-05-09 20:44:53.997 [DBG] Registered created book for cleanup: "4e419b46-2390-413e-9d8f-c55c9917423f"
+2026-05-09 20:44:54.089 [DBG] Cleanup delete request for book "4e419b46-2390-413e-9d8f-c55c9917423f". Status code: 204
+2026-05-09 20:44:54.091 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_201. Duration: "00:00:01.0273117"
+2026-05-09 20:44:54.143 [INF] Starting API test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:44:54.497 [DBG] HttpClient initialized successfully for test: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request
+2026-05-09 20:44:54.498 [DBG] Sending POST request to create a book
+2026-05-09 20:44:54.814 [DBG] Registered created book for cleanup: "9f37cf31-3630-4f99-9392-801518bd4236"
+2026-05-09 20:44:54.897 [DBG] Cleanup delete request for book "9f37cf31-3630-4f99-9392-801518bd4236". Status code: 204
+2026-05-09 20:44:54.898 [INF] API test passed: Create_Book_With_Valid_Data_Should_Return_Response_Body_Matching_Request. Duration: "00:00:00.6719243"
+2026-05-09 20:44:54.900 [INF] Starting API test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:44:55.229 [DBG] HttpClient initialized successfully for test: Create_Duplicate_Book_Should_Not_Return_201
+2026-05-09 20:44:55.231 [DBG] Sending POST request to create a book
+2026-05-09 20:44:55.545 [DBG] Registered created book for cleanup: "a42fb00f-f0df-4ce5-97ca-12179d5907a2"
+2026-05-09 20:44:55.545 [DBG] Sending POST request to create a book
+2026-05-09 20:44:55.727 [DBG] Cleanup delete request for book "a42fb00f-f0df-4ce5-97ca-12179d5907a2". Status code: 204
+2026-05-09 20:44:55.727 [INF] API test passed: Create_Duplicate_Book_Should_Not_Return_201. Duration: "00:00:00.7508354"
+2026-05-09 20:44:55.733 [INF] Starting API test: Delete_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:44:55.973 [DBG] HttpClient initialized successfully for test: Delete_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:44:55.974 [DBG] Sending DELETE request for book with id: invalid-id
+2026-05-09 20:44:56.235 [INF] API test passed: Delete_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5014141"
+2026-05-09 20:44:56.237 [INF] Starting API test: Delete_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:44:56.501 [DBG] HttpClient initialized successfully for test: Delete_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:44:56.502 [DBG] Sending DELETE request for book with id: a2322e0b-1ed2-4e2d-ab6e-ffe358d4bedf
+2026-05-09 20:44:56.777 [INF] API test passed: Delete_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5403713"
+2026-05-09 20:44:56.779 [INF] Starting API test: Delete_Book_By_Valid_Id_Should_Return_204_And_Book_Should_Not_Be_Retrievable
+2026-05-09 20:44:57.099 [DBG] HttpClient initialized successfully for test: Delete_Book_By_Valid_Id_Should_Return_204_And_Book_Should_Not_Be_Retrievable
+2026-05-09 20:44:57.101 [DBG] Sending POST request to create a book
+2026-05-09 20:44:57.377 [DBG] Sending DELETE request for book with id: 079a5775-bcc4-467b-8286-e2b397c28d5c
+2026-05-09 20:44:57.477 [DBG] Sending GET request for book by id: 079a5775-bcc4-467b-8286-e2b397c28d5c
+2026-05-09 20:44:57.569 [INF] API test passed: Delete_Book_By_Valid_Id_Should_Return_204_And_Book_Should_Not_Be_Retrievable. Duration: "00:00:00.7901526"
+2026-05-09 20:44:57.577 [INF] Starting API test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:44:57.891 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_List_Of_Books
+2026-05-09 20:44:57.893 [DBG] Sending POST request to create a book
+2026-05-09 20:44:58.153 [DBG] Registered created book for cleanup: "10315321-86af-4be5-a398-95e09c6336f5"
+2026-05-09 20:44:58.153 [DBG] Sending GET request for all books
+2026-05-09 20:44:58.410 [DBG] Cleanup delete request for book "10315321-86af-4be5-a398-95e09c6336f5". Status code: 204
+2026-05-09 20:44:58.410 [INF] API test passed: Get_All_Books_Should_Return_List_Of_Books. Duration: "00:00:00.7290509"
+2026-05-09 20:44:58.412 [INF] Starting API test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:44:58.703 [DBG] HttpClient initialized successfully for test: Get_All_Books_Should_Return_Required_Book_Fields
+2026-05-09 20:44:58.704 [DBG] Sending POST request to create a book
+2026-05-09 20:44:59.058 [DBG] Registered created book for cleanup: "0f8d9106-5b1d-45b4-9d88-82e3eb5af973"
+2026-05-09 20:44:59.058 [DBG] Sending GET request for all books
+2026-05-09 20:44:59.229 [DBG] Cleanup delete request for book "0f8d9106-5b1d-45b4-9d88-82e3eb5af973". Status code: 204
+2026-05-09 20:44:59.230 [INF] API test passed: Get_All_Books_Should_Return_Required_Book_Fields. Duration: "00:00:00.7292860"
+2026-05-09 20:44:59.232 [INF] Starting API test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:44:59.536 [DBG] HttpClient initialized successfully for test: Get_Book_By_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:44:59.537 [DBG] Sending GET request for book by id: invalid-id
+2026-05-09 20:44:59.810 [INF] API test passed: Get_Book_By_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5778175"
+2026-05-09 20:44:59.812 [INF] Starting API test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:45:00.157 [DBG] HttpClient initialized successfully for test: Get_Book_By_Non_Existent_Id_Should_Return_404
+2026-05-09 20:45:00.158 [DBG] Sending GET request for book by id: 03297db7-449e-4105-98bd-1fec97d0f8e1
+2026-05-09 20:45:00.435 [INF] API test passed: Get_Book_By_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.6227101"
+2026-05-09 20:45:00.444 [INF] Starting API test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:45:00.780 [DBG] HttpClient initialized successfully for test: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data
+2026-05-09 20:45:00.782 [DBG] Sending POST request to create a book
+2026-05-09 20:45:01.037 [DBG] Registered created book for cleanup: "15dc9744-0d09-4cdf-bb19-f4612c3a8097"
+2026-05-09 20:45:01.037 [DBG] Sending GET request for book by id: 15dc9744-0d09-4cdf-bb19-f4612c3a8097
+2026-05-09 20:45:01.207 [DBG] Cleanup delete request for book "15dc9744-0d09-4cdf-bb19-f4612c3a8097". Status code: 204
+2026-05-09 20:45:01.207 [INF] API test passed: Get_Book_By_Valid_Id_Should_Return_200_And_Correct_Data. Duration: "00:00:00.6839309"
+2026-05-09 20:45:01.215 [INF] Starting API test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:45:01.531 [DBG] HttpClient initialized successfully for test: Update_Book_With_Invalid_Id_Format_Should_Return_400
+2026-05-09 20:45:01.532 [DBG] Sending PUT request to update book with id: invalid-id
+2026-05-09 20:45:01.793 [INF] API test passed: Update_Book_With_Invalid_Id_Format_Should_Return_400. Duration: "00:00:00.5783706"
+2026-05-09 20:45:01.795 [INF] Starting API test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:45:02.091 [DBG] HttpClient initialized successfully for test: Update_Book_With_Non_Existent_Id_Should_Return_404
+2026-05-09 20:45:02.093 [DBG] Sending PUT request to update book with id: ad38e9d6-824c-4416-8e83-f0e34f05d998
+2026-05-09 20:45:02.330 [INF] API test passed: Update_Book_With_Non_Existent_Id_Should_Return_404. Duration: "00:00:00.5341316"
+2026-05-09 20:45:02.332 [INF] Starting API test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:45:02.615 [DBG] HttpClient initialized successfully for test: Update_Existing_Book_With_Valid_Data_Should_Succeed
+2026-05-09 20:45:02.617 [DBG] Sending POST request to create a book
+2026-05-09 20:45:02.861 [DBG] Registered created book for cleanup: "960a71fb-cf00-4730-8d76-e2d44e00b58a"
+2026-05-09 20:45:02.861 [DBG] Sending PUT request to update book with id: 960a71fb-cf00-4730-8d76-e2d44e00b58a
+2026-05-09 20:45:03.050 [DBG] Sending GET request for book by id: 960a71fb-cf00-4730-8d76-e2d44e00b58a
+2026-05-09 20:45:03.474 [DBG] Cleanup delete request for book "960a71fb-cf00-4730-8d76-e2d44e00b58a". Status code: 204
+2026-05-09 20:45:03.474 [INF] API test passed: Update_Existing_Book_With_Valid_Data_Should_Succeed. Duration: "00:00:00.9226718"
