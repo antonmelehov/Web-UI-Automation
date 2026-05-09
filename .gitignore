@@ -20,6 +20,10 @@ TestResults/
 !Ehu.UiTests/allure-report-artifacts/logs/
 !Ehu.UiTests/allure-report-artifacts/logs/ui-tests-20260426.log
 
+!Ehu.ApiTests/allure-report-artifacts/
+!Ehu.ApiTests/allure-report-artifacts/logs/
+!Ehu.ApiTests/allure-report-artifacts/logs/api-tests-20260509.log
+
 .DS_Store
 Thumbs.db
 
