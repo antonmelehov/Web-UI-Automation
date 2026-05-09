@@ -29,3 +29,5 @@ packages/
 !**/packages/repositories.config
 
 .selenium/
+
+Ehu.ApiTests/appsettings.json
