@@ -7,7 +7,7 @@ using Ehu.ApiTests.Logging;
 using NUnit.Framework.Interfaces;
 using Serilog;
 
-namespace Ehu.ApiTests;
+namespace Ehu.ApiTests.Tests;
 
 [AllureNUnit]
 public abstract class BaseApiTest
